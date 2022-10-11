@@ -1,3 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-orange:#F16718;
+    --light-orange:#FF9B62;
+    --dark-blue:#162542;
+    --dark-grey:#7B8BAD;
+    --light-grey:#E8EFF2;
+    --white:#FFFFFF;
+}
+
 body{
-    background-color:red ;
+    font-family: 'Barlow', sans-serif;
+    background-color: var(--white);
+}
+header, main, footer{
+    margin: 0 1.5em;
+} 
+/* global font styles */
+h1, h2, h3{
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0.66667em;
+}
+h2{
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+h3{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.625;
+    color:var(--dark-grey);
+    font-weight: 500;
+}
+/* button general style */
+button{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.625;
+    padding: 0.6875em 0.875em;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.688em 0 4em 0;
+}
+header p{
+    margin-bottom: 2em;
+}
+/* header */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.flex p{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.flex button{
+    background-color: var(--dark-orange);
+    color: var(--white);
+}
+
+/* background images */
+.key{
+    max-width:100%;
+    border-radius: 20px;
+    margin-left: 1.5em;
+    overflow: hidden;
+    /* transform: translate(5%); */
+    /* position: absolute;
+    right: 0; */
+}
+.keyboard{
+    width: 105%;
+}
+.phone-keyboard{
+    width: 100%;
+}
+.glass-keyboard{
+    width: 100%;
 }
