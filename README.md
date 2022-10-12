@@ -24,4 +24,3 @@ The designs were created to the following widths:
 - positions
 - Mobile-first workflow
 
-# What I learned
